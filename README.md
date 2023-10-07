@@ -7,14 +7,14 @@ Copy the project to a desired location:
 
 # Usage
 
-## Interacting with API
+## Interacting with API:
 
 `http://0.0.0.0:1337/` – **Main** – Shows the most recent calculation.  
 `http://0.0.0.0:1337/recent` – **Recent** – Shows most recent 10 calculations.  
 `http://0.0.0.0:1337/all` – **All** – Shows all calculations.  
 `http://0.0.0.0:1337/operate?operation=x+y` – **Operate** – Operation performing template.
 
-## Performing operation
+## Performing operation:
 
 **Addition:**
 
@@ -36,3 +36,7 @@ Copy the project to a desired location:
 
     docker build -t calculator-api .
     docker run -p 1337:1337 calculator-api
+
+# Reference
+
+- [rohitamale18/calculator-api](https://github.com/rohitamale18/calculator-api)
