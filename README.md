@@ -12,7 +12,7 @@ Copy the project to a desired location:
 `http://0.0.0.0:1337/` – **Main** – Shows the most recent calculation.  
 `http://0.0.0.0:1337/recent` – **Recent** – Shows most recent 10 calculations.  
 `http://0.0.0.0:1337/all` – **All** – Shows all calculations.  
-`http://0.0.0.0:1337/operate?operation=x+y` – **Operate** – Operation performing template.
+`http://0.0.0.0:1337/operate?operation=x*y` – **Operate** – Operation performing template.
 
 ## Performing operation:
 
