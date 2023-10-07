@@ -17,12 +17,12 @@ def home():
     return response, 200
 
 
-@app.route("/recentresults", methods=["GET"])
+@app.route("/recent", methods=["GET"])
 def recent_results():
     return jsonify(results[-10:][::-1]), 200
 
 
-@app.route("/allresults", methods=["GET"])
+@app.route("/all", methods=["GET"])
 def all_results():
     return jsonify(results), 200
 
