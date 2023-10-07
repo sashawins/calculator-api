@@ -18,19 +18,19 @@ Copy the project to a desired location:
 
 **Addition:**
 
-    curl -X get http://0.0.0.0:1337/operate?operation=x%2by
+    curl -X get http://0.0.0.0:1337/operate?operation=7%2b3
 
 **Subtraction:**
 
-    curl -X get http://0.0.0.0:1337/operate?operation=x-y
+    curl -X get http://0.0.0.0:1337/operate?operation=7-3
 
 **Multiplication:**
 
-    curl -X get http://0.0.0.0:1337/operate?operation=x*y
+    curl -X get http://0.0.0.0:1337/operate?operation=7*3
 
 **Division:**
 
-    curl -X get http://0.0.0.0:1337/operate?operation=x/y
+    curl -X get http://0.0.0.0:1337/operate?operation=7/3
 
 # Deployment
 
